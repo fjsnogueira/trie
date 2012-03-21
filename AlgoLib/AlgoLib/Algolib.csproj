@@ -35,8 +35,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITrieNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trie.cs" />
+    <Compile Include="TrieBase.cs" />
     <Compile Include="TrieEntry.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
